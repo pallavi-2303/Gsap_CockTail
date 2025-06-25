@@ -5,7 +5,7 @@ import gsap from 'gsap'
 gsap.registerPlugin(ScrollTrigger, SplitText);
 const App = () => {
   return (
-    <div className='bg-red-500 flex-center'>App</div>
+    <div className="flex-center h-[100vh]">App</div>
   )
 }
 
