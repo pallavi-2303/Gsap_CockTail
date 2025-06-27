@@ -2,7 +2,6 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
 import React from "react";
-gsap.registerPlugin(ScrollTrigger, SplitText);
 const About = () => {
   useGSAP(() => {
 	const titleSplit = SplitText.create('#about h2', {
